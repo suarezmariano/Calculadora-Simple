@@ -1,6 +1,7 @@
 const calculadora = require(__dirname +"/funciones");
 const process = require("process");
 
+
 let funcion = process.argv[2];
 let num = parseInt(process.argv[3]);
 let num2 = parseInt(process.argv[4]);
